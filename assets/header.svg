@@ -1,0 +1,116 @@
+<svg width="800" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      
+      .bg { fill: #050505; }
+      .iris { fill: none; stroke: #c8a96e; stroke-width: 2; opacity: 0.2; }
+      .core { fill: none; stroke: #c8a96e; stroke-width: 1; opacity: 0.5; }
+      .text-title { font-family: 'Share Tech Mono', monospace; font-size: 32px; fill: #ffffff; letter-spacing: 4px; font-weight: bold; }
+      .text-sub { font-family: 'Share Tech Mono', monospace; font-size: 14px; fill: #c8a96e; letter-spacing: 2px; }
+      .text-hud { font-family: 'Share Tech Mono', monospace; font-size: 12px; fill: rgba(200, 169, 110, 0.4); }
+      
+      /* Gun Barrel Spin */
+      .barrel { transform-origin: 400px 125px; animation: spin 15s linear infinite; }
+      @keyframes spin { 100% { transform: rotate(360deg); } }
+      
+      /* Pulse effect */
+      .pulse { animation: pulsing 2s ease-in-out infinite alternate; }
+      @keyframes pulsing {
+        0% { filter: drop-shadow(0 0 2px #c8a96e); opacity: 0.8; }
+        100% { filter: drop-shadow(0 0 8px #c8a96e); opacity: 1; }
+      }
+      
+      /* Glitch effect on title */
+      .glitch { animation: glitching 4s infinite step-end; }
+      @keyframes glitching {
+        0% { transform: translate(0); opacity: 1; }
+        2% { transform: translate(-2px, 1px); opacity: 0.8; }
+        4% { transform: translate(2px, -1px); opacity: 1; }
+        6% { transform: translate(0); opacity: 1; }
+        100% { transform: translate(0); opacity: 1; }
+      }
+      
+      /* Typewriter Mask */
+      .type-mask { animation: reveal 4s steps(40, end) forwards; animation-iteration-count: 1; }
+      @keyframes reveal {
+        0% { width: 0; }
+        100% { width: 400px; }
+      }
+      
+      /* Scanline */
+      .scan { stroke: rgba(255, 255, 255, 0.1); stroke-width: 1; }
+      
+      /* Focus Box */
+      .focus-box { fill: none; stroke: rgba(200, 169, 110, 0.3); stroke-width: 1; stroke-dasharray: 4,4; animation: dash 20s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: 200; } }
+    </style>
+    
+    <!-- Focus Box -->
+    <rect id="frame" x="20" y="20" width="760" height="210" rx="4" ry="4" class="focus-box" />
+
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" />
+  
+  <use href="#frame" />
+  
+  <!-- Corner accents -->
+  <path d="M 20 50 L 20 20 L 50 20" fill="none" class="core" stroke-width="2"/>
+  <path d="M 780 50 L 780 20 L 750 20" fill="none" class="core" stroke-width="2"/>
+  <path d="M 20 200 L 20 230 L 50 230" fill="none" class="core" stroke-width="2"/>
+  <path d="M 780 200 L 780 230 L 750 230" fill="none" class="core" stroke-width="2"/>
+
+  <!-- Gun barrel pattern rings (007 theme) -->
+  <g class="barrel">
+    <circle cx="400" cy="125" r="100" class="iris" stroke-dasharray="10 5" />
+    <circle cx="400" cy="125" r="70" class="core" />
+    <circle cx="400" cy="125" r="40" class="iris" stroke-dasharray="2 4" />
+    <circle cx="400" cy="125" r="150" class="iris" />
+    <line x1="400" y1="-25" x2="400" y2="275" class="iris" />
+    <line x1="250" y1="125" x2="550" y2="125" class="iris" />
+  </g>
+
+  <!-- Dark overlay mask for sleekness -->
+  <rect width="100%" height="100%" fill="rgba(5,5,5,0.75)" />
+
+  <g transform="translate(60, 100)">
+    <text x="0" y="0" class="text-sub">INTELLIGENCE DOSSIER // LEVEL 5</text>
+    <text x="0" y="30" class="text-title pulse glitch">SPECTER-009</text>
+    
+    <!-- Animated Typewriter section -->
+    <g transform="translate(0, 50)">
+      <rect x="0" y="-12" height="20" fill="#050505" width="400" />
+      <text class="text-sub">MISSION STATUS // ACTIVE OPERATIONS</text>
+      <rect class="type-mask" x="0" y="-15" width="400" height="25" fill="#050505" transform="translate(400,0) scale(-1, 1)" />
+    </g>
+  </g>
+  
+  <!-- HUD Elements right -->
+  <g transform="translate(630, 60)" class="text-hud">
+    <text x="0" y="0">SYS: OPERATIONAL</text>
+    <text x="0" y="15">NEXUS: CONNECTED</text>
+    <text x="0" y="30">ENC: AES-256</text>
+    <text x="0" y="45">LAT: [REDACTED]</text>
+    <text x="0" y="60">LNG: [REDACTED]</text>
+    <text x="0" y="75">AGT: DRIAN V.</text>
+    
+    <!-- Animating bars -->
+    <rect x="-20" y="-10" width="10" height="2" fill="#c8a96e">
+      <animate attributeName="width" values="2;10;4;8;2;12;2" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-20" y="5" width="8" height="2" fill="#c8a96e">
+      <animate attributeName="width" values="8;2;6;10;4;6;8" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-20" y="20" width="12" height="2" fill="#c8a96e">
+      <animate attributeName="width" values="12;4;10;2;8;2;12" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Grid overlay -->
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <rect width="20" height="20" fill="none" class="scan" />
+  </pattern>
+  <rect width="100%" height="100%" fill="url(#grid)" opacity="0.15" />
+
+</svg>

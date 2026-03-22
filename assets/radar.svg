@@ -1,0 +1,79 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      
+      .bg { fill: transparent; }
+      .radar-bg { fill: rgba(10, 10, 10, 0.8); stroke: #c8a96e; stroke-width: 1; }
+      .circle { fill: none; stroke: rgba(200, 169, 110, 0.3); stroke-width: 1; }
+      .circle-dash { stroke-dasharray: 4 8; }
+      .sweep { fill: url(#sweep-grad); transform-origin: 200px 200px; animation: sweep 4s linear infinite; }
+      .dot { fill: #ffffff; filter: drop-shadow(0 0 3px #c8a96e); animation: blip 4s infinite; }
+      .text-blip { font-family: 'Share Tech Mono', monospace; font-size: 10px; fill: #c8a96e; animation: blip 4s infinite; }
+      
+      @keyframes sweep { to { transform: rotate(360deg); } }
+      @keyframes blip {
+        0%, 95% { opacity: 0.2; }
+        100% { opacity: 1; filter: drop-shadow(0 0 5px #fff); }
+      }
+      
+      .d1 { animation-delay: 0.5s; }
+      .d2 { animation-delay: 1.2s; }
+      .d3 { animation-delay: 2.1s; }
+      .d4 { animation-delay: 3.4s; }
+      .d5 { animation-delay: 1.8s; }
+      
+    </style>
+    
+    <radialGradient id="sweep-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(200, 169, 110, 0.6)" />
+      <stop offset="100%" stop-color="rgba(200, 169, 110, 0)" />
+    </radialGradient>
+    <conicGradient id="conic" cx="50%" cy="50%" angle="0deg">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="25%" stop-color="rgba(200, 169, 110, 0.5)"/>
+      <stop offset="25.1%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </conicGradient>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" />
+  
+  <g transform="translate(0,0)">
+    <!-- Radar Base -->
+    <circle cx="200" cy="200" r="180" class="radar-bg" />
+    <circle cx="200" cy="200" r="140" class="circle circle-dash" />
+    <circle cx="200" cy="200" r="100" class="circle" />
+    <circle cx="200" cy="200" r="60" class="circle circle-dash" />
+    <circle cx="200" cy="200" r="20" class="circle" />
+    
+    <!-- Crosshairs -->
+    <line x1="20" y1="200" x2="380" y2="200" class="circle" />
+    <line x1="200" y1="20" x2="200" y2="380" class="circle" />
+    
+    <!-- The Sweep -->
+    <path d="M 200 200 L 200 20 A 180 180 0 0 1 380 200 Z" fill="url(#conic)" style="transform-origin: 200px 200px; animation: sweep 4s linear infinite;" />
+
+    <!-- Targets (Skills) -->
+    <g class="d1">
+      <circle cx="280" cy="120" r="3" class="dot" />
+      <text x="290" y="123" class="text-blip">C++/ARDUINO</text>
+    </g>
+    <g class="d2">
+      <circle cx="120" cy="250" r="3" class="dot" />
+      <text x="50" y="253" class="text-blip">REACT/TS</text>
+    </g>
+    <g class="d3">
+      <circle cx="150" cy="110" r="3" class="dot" />
+      <text x="90" y="105" class="text-blip">MARIADB</text>
+    </g>
+    <g class="d4">
+      <circle cx="290" cy="270" r="3" class="dot" />
+      <text x="300" y="275" class="text-blip">HARDWARE</text>
+    </g>
+    <g class="d5">
+      <circle cx="250" cy="180" r="3" class="dot" />
+      <text x="260" y="175" class="text-blip">PHP/JAVA</text>
+    </g>
+  </g>
+</svg>
