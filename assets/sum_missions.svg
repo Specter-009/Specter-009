@@ -1,0 +1,31 @@
+<svg width="800" height="40" viewBox="0 0 800 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      .bg { fill: #0a0a0a; stroke: #c8a96e; stroke-width: 1; stroke-dasharray: 4 2; animation: borderPulse 4s infinite; }
+      @keyframes borderPulse { 0% { opacity: 0.5; } 50% { opacity: 1; } 100% { opacity: 0.5; } }
+      
+      .text { font-family: 'Share Tech Mono', monospace; font-size: 16px; fill: #c8a96e; font-weight: bold; letter-spacing: 2px; }
+      .glitch { animation: glitching 3.5s infinite step-end; }
+      @keyframes glitching {
+        0% { transform: translate(0); opacity: 1; filter: drop-shadow(0 0 2px #c8a96e); }
+        2% { transform: translate(-2px, 0px); opacity: 0.8; filter: none; }
+        4% { transform: translate(2px, 0px); opacity: 1; filter: drop-shadow(0 0 4px #c8a96e); }
+        6% { transform: translate(0); opacity: 1; filter: drop-shadow(0 0 2px #c8a96e); }
+        100% { transform: translate(0); opacity: 1; filter: drop-shadow(0 0 2px #c8a96e); }
+      }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="798" height="38" class="bg" rx="2" ry="2"/>
+  
+  <rect x="5" y="10" width="4" height="20" fill="#c8a96e" class="glitch" />
+  <rect x="12" y="14" width="2" height="12" fill="#c8a96e" />
+
+  <text x="25" y="26" class="text glitch">[+] // MISSION LOGS : ACTIVE &amp; COMPLETED OPERATIONS</text>
+
+  <g transform="translate(680, 20)">
+    <line x1="0" y1="0" x2="100" y2="0" stroke="#c8a96e" stroke-dasharray="2 4" />
+    <circle cx="100" cy="0" r="3" fill="#c8a96e" class="glitch" />
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg width="395" height="120" viewBox="0 0 395 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+      .bg { fill: #050505; stroke: #c8a96e; stroke-width: 1; opacity: 0.8; }
+      .title { font-family: 'Share Tech Mono', monospace; font-size: 16px; fill: #ffffff; letter-spacing: 1px; }
+      .id-badge { font-family: 'Share Tech Mono', monospace; font-size: 10px; fill: #050505; }
+      .desc { font-family: 'Share Tech Mono', monospace; font-size: 12px; fill: #a0a0a0; }
+      
+      .focus-box { fill: none; stroke: #c8a96e; stroke-width: 1; stroke-dasharray: 2,4; animation: dash 10s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: 200; } }
+      
+      .glitch { animation: glitching 3s infinite step-end; transform-origin: left; }
+      @keyframes glitching {
+        0% { transform: translate(0); opacity: 1; }
+        2% { transform: translate(-1px, 1px); opacity: 0.8; }
+        4% { transform: translate(1px, -1px); opacity: 1; }
+        6% { transform: translate(0); opacity: 1; }
+        100% { transform: translate(0); opacity: 1; }
+      }
+      
+      .scanline { fill: #c8a96e; opacity: 0.1; animation: scan 4s linear infinite; }
+      @keyframes scan { 
+        0% { y: -10px; height: 10px; } 
+        100% { y: 130px; height: 10px; } 
+      }
+      
+      .mask-rect { animation: reveal 2.5s steps(30, end) forwards; }
+      @keyframes reveal { 0% { width: 300px; } 100% { width: 0px; } }
+      
+      .cross { stroke: #c8a96e; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="391" height="116" class="bg" />
+  <rect x="6" y="6" width="383" height="108" class="focus-box" />
+  
+  <path d="M 2 15 L 2 2 L 15 2" class="cross" />
+  <path d="M 393 15 L 393 2 L 380 2" class="cross" />
+  <path d="M 2 105 L 2 118 L 15 118" class="cross" />
+  <path d="M 393 105 L 393 118 L 380 118" class="cross" />
+
+  <rect x="0" y="0" width="395" height="10" class="scanline" />
+
+  <rect x="15" y="15" width="60" height="16" fill="#c8a96e" />
+  <text x="20" y="27" class="id-badge glitch">OPS-001</text>
+
+  <text x="85" y="28" class="title glitch">AUTONOMOUS GROUND UNIT</text>
+  
+  <g transform="translate(15, 60)">
+    <text x="0" y="0" class="desc">Navigates, detects, adapts. C++, Arduino.</text>
+    <rect class="mask-rect" x="0" y="-12" height="16" fill="#050505" width="300" transform="translate(300,0) scale(-1, 1)" />
+  </g>
+
+  <rect x="15" y="95" width="10" height="2" fill="#c8a96e">
+    <animate attributeName="width" values="2;10;4;8;2;12;2" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="30" y="95" width="15" height="2" fill="#c8a96e">
+    <animate attributeName="width" values="15;4;10;2;8;2;15" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

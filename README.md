@@ -6,7 +6,7 @@
 
 <div align="center">
   <a href="https://github.com/Specter-009">
-    <img src="https://img.shields.io/badge/CLEARANCE-LEVEL__5-c8a96e?style=for-the-badge&labelColor=050505" alt="Clearance" />
+    <img src="https://img.shields.io/badge/CLEARANCE-TOP__SECRET-c8a96e?style=for-the-badge&labelColor=050505" alt="Clearance" />
   </a>
   <a href="https://github.com/Specter-009">
     <img src="https://img.shields.io/badge/STATUS-ACTIVE-1a3a1a?style=for-the-badge&labelColor=050505&color=2a5a2a" alt="Status" />
@@ -19,7 +19,7 @@
 <br><br>
 
 <details open>
-  <summary><b><code>[+] // DOSSIER DECRYPTED : OVERVIEW</code></b></summary>
+  <summary><img src="assets/sum_dossier.svg" width="800" alt="[+] DOSSIER DECRYPTED" /></summary>
   <br>
   <table>
     <tr>
@@ -41,7 +41,7 @@
 <br>
 
 <details>
-  <summary><b><code>[+] // ARSENAL : TECHNICAL CAPABILITIES</code></b></summary>
+  <summary><img src="assets/sum_arsenal.svg" width="800" alt="[+] ARSENAL" /></summary>
   <br>
   <div align="center">
     <img src="assets/radar.svg" width="400" alt="Skills Radar" />
@@ -53,52 +53,40 @@
 <br>
 
 <details>
-  <summary><b><code>[+] // MISSION LOGS : ACTIVE & COMPLETED OPERATIONS</code></b></summary>
+  <summary><img src="assets/sum_missions.svg" width="800" alt="[+] MISSION LOGS" /></summary>
   <br>
-  <table>
-    <tr>
-      <td width="50%" valign="top">
-        <b><code>OPS-001</code> <a href="https://github.com/Specter-009/arduino-line-follower-obstacle-robot">AUTONOMOUS GROUND UNIT</a></b><br>
-        Navigates, detects, adapts. C++, Arduino, Sensor Fusion.
-      </td>
-      <td width="50%" valign="top">
-        <b><code>OPS-002</code> <a href="https://github.com/Specter-009/MapNotes">MAPNOTES INTELLIGENCE</a></b><br>
-        Geographic annotation system. HTML, CSS, JavaScript.
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" valign="top">
-        <b><code>OPS-003</code> <a href="https://github.com/Specter-009/manoloAccess">MANOLOACCESS TICKETING</a></b><br>
-        High-volume processing. Java, NetBeans, MariaDB.
-      </td>
-      <td width="50%" valign="top">
-        <b><code>OPS-004</code> <a href="https://github.com/Specter-009/ReactProject">IONIC REACT GROUND</a></b><br>
-        Active development environment. TypeScript, React.
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" valign="top">
-        <b><code>OPS-005</code> <a href="https://github.com/foodwaste-management/foodwaste">FOODWASTE MANAGEMENT</a></b><br>
-        Collaborative tracking. PHP, Web.
-      </td>
-      <td width="50%" valign="top">
-        <b><code>OPS-006</code> <a href="https://esp-32-dht-11-temp-humidity-logger.vercel.app/">ESP32 FIELD LOGGER</a></b><br>
-        Live monitoring via ESP32. C++, Vercel.
-      </td>
-    </tr>
-  </table>
+  <div align="center">
+    <a href="https://github.com/Specter-009/arduino-line-follower-obstacle-robot">
+      <img src="assets/proj_ops-001.svg" width="395" alt="OPS-001" />
+    </a>
+    <a href="https://github.com/Specter-009/MapNotes">
+      <img src="assets/proj_ops-002.svg" width="395" alt="OPS-002" />
+    </a>
+    <br>
+    <a href="https://github.com/Specter-009/manoloAccess">
+      <img src="assets/proj_ops-003.svg" width="395" alt="OPS-003" />
+    </a>
+    <a href="https://github.com/Specter-009/ReactProject">
+      <img src="assets/proj_ops-004.svg" width="395" alt="OPS-004" />
+    </a>
+    <br>
+    <a href="https://github.com/foodwaste-management/foodwaste">
+      <img src="assets/proj_ops-005.svg" width="395" alt="OPS-005" />
+    </a>
+    <a href="https://esp-32-dht-11-temp-humidity-logger.vercel.app/">
+      <img src="assets/proj_ops-006.svg" width="395" alt="OPS-006" />
+    </a>
+  </div>
 </details>
 
 <br>
 
 <details>
-  <summary><b><code>[+] // SURVEILLANCE : OPERATIONAL TIMELINE</code></b></summary>
+  <summary><img src="assets/sum_surveillance.svg" width="800" alt="[+] SURVEILLANCE TIMELINE" /></summary>
   <br>
   <div align="center">
-    <!-- Activity Timeline -->
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=Specter-009&bg_color=050505&color=c8a96e&line=c8a96e&point=ffffff&area=true&area_color=c8a96e&hide_border=true&custom_title=FIELD+ACTIVITY+TIMELINE+%2F%2F+SPECTER-009" width="100%" />
     <br><br>
-    <!-- Contribution Grid Snake -->
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Specter-009/Specter-009/output/github-contribution-grid-snake-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Specter-009/Specter-009/output/github-contribution-grid-snake.svg" />
@@ -110,7 +98,7 @@
 <br>
 
 <details>
-  <summary><b><code>[+] // SECURE COMM-LINK : CONTACT PROTOCOL</code></b></summary>
+  <summary><img src="assets/sum_contact.svg" width="800" alt="[+] CONTACT PROTOCOL" /></summary>
   <br>
   <div align="center">
     <a href="https://github.com/Specter-009">

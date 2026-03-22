@@ -75,7 +75,7 @@
   <rect width="100%" height="100%" fill="rgba(5,5,5,0.75)" />
 
   <g transform="translate(60, 100)">
-    <text x="0" y="0" class="text-sub">INTELLIGENCE DOSSIER // LEVEL 5</text>
+    <text x="0" y="0" class="text-sub">INTELLIGENCE DOSSIER // TOP SECRET</text>
     <text x="0" y="30" class="text-title pulse glitch">SPECTER-009</text>
     
     <!-- Animated Typewriter section -->
