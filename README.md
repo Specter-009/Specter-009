@@ -24,15 +24,17 @@
   <table>
     <tr>
       <td width="60%">
-        <b>IDENTIFICATION:</b> DRIAN VILLAROSA<br>
+        <b>IDENTIFICATION:</b> ADRIAN VILLAROSA<br>
         <b>CODENAME:</b> SPECTER-009<br>
         <b>STATION:</b> ARRAKIS SECTOR // COORDINATES CLASSIFIED<br>
-        <b>DISCIPLINES:</b> EMBEDDED SYSTEMS / FULL STACK / ROBOTICS<br>
+        <b>PROJECTS:</b>
         <br>
-        <i>Operates in low-noise, high-output mode. Effective across hardware and software. Comfortable in constrained environments.</i>
-      </td>
-      <td width="40%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=Specter-009&show_icons=true&theme=transparent&title_color=c8a96e&text_color=888888&icon_color=c8a96e&border_color=050505&hide_border=true&custom_title=OPERATIONAL%20METRICS" alt="Metrics" />
+        => https://esp-32-dht-11-temp-humidity-logger.vercel.app/ 
+        <br><br>
+        => https://esp32-iron-traffic-light-control.vercel.app/ 
+        <br><br>
+        => https://esp32-led-control-iron-man-theme.vercel.app/ 
+        <br>
       </td>
     </tr>
   </table>
