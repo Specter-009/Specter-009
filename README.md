@@ -27,13 +27,13 @@
         <b>IDENTIFICATION:</b> ADRIAN VILLAROSA<br>
         <b>CODENAME:</b> SPECTER-009<br>
         <b>STATION:</b> ARRAKIS SECTOR // COORDINATES CLASSIFIED<br>
-        <b>PROJECTS:</b>
+        <b>CURRENT PROJECTS:</b>
         <br>
-        => https://esp-32-dht-11-temp-humidity-logger.vercel.app/ 
+        => 🌡️ https://atmos-weather-monitoring.vercel.app/ 
         <br><br>
-        => https://esp32-iron-traffic-light-control.vercel.app/ 
+        => 🚦 https://esp32-iron-traffic-light-control.vercel.app/ 
         <br><br>
-        => https://esp32-led-control-iron-man-theme.vercel.app/ 
+        => 💡 https://esp32-led-control-iron-man-theme.vercel.app/ 
         <br>
       </td>
     </tr>
