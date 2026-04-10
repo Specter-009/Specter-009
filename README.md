@@ -1,121 +1,119 @@
 <div align="center">
   <img src="assets/header.svg" width="800" alt="SPECTER-009 Header" />
+  <h1>Adrian Villarosa</h1>
+  <p align="center">
+    <strong>BSIT Student @ Northern Bukidnon State College</strong><br>
+    <strong>Website Manager @ Ballpoint (Campus Publication)</strong><br>
+    <em>Fullstack Development | IoT | Application Design</em>
+  </p>
+</div>
+
+<div align="center">
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/Connect-Email-c8a96e?style=for-the-badge&logo=gmail&logoColor=white&labelColor=050505" alt="Email" />
+  </a>
+  <a href="https://github.com/Specter-009">
+    <img src="https://img.shields.io/badge/Connect-GitHub-c8a96e?style=for-the-badge&logo=github&logoColor=white&labelColor=050505" alt="GitHub" />
+  </a>
 </div>
 
 <br>
 
+---
+
+## 📂 Briefing
+I am a dedicated **Information Technology student** at **Northern Bukidnon State College**, specializing in bridging the gap between hardware and high-level software. Currently serving as the **Website Manager** for **Ballpoint**, I oversee the digital presence of our campus student publication, ensuring seamless delivery of information to the student body.
+
+My passion lies in creating cohesive systems—from **IoT monitoring solutions** using Arduino to **dynamic web applications** and **cross-platform desktop software**.
+
+<br>
+
+---
+
+## ⚡ Field Activity & Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Specter-009&show_icons=true&title_color=c8a96e&text_color=ffffff&bg_color=050505&border_color=c8a96e&hide_border=false&count_private=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Specter-009&layout=compact&title_color=c8a96e&text_color=ffffff&bg_color=050505&border_color=c8a96e&hide_border=false" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Specter-009&theme=tokyonight&stroke=c8a96e&background=050505&ring=c8a96e&fire=c8a96e&currStreakLabel=c8a96e" width="100%" />
+</p>
+
+<br>
+
+---
+
+## 🛠️ Technical Arsenal
+
+### 🌐 Web Development
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,bootstrap,php,nodejs,express&theme=dark" />
+</p>
+
+### 🖥️ Software & Hardware
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=electron,java,cpp,arduino&theme=dark" />
+</p>
+
+### 🎮 Game Development
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=unity,cs&theme=dark" />
+</p>
+
+### 🗄️ Database & Cloud
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mysql,supabase,vercel&theme=dark" />
+</p>
+
+### 🔧 Tools & Environment
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git,netbeans&theme=dark" />
+  <img src="https://img.shields.io/badge/XAMPP-FB8C00?style=for-the-badge&logo=xampp&logoColor=white" height="48" />
+</p>
+
+<br>
+
+---
+
+## 🚀 Active Missions (Projects)
+
 <div align="center">
-  <a href="https://github.com/Specter-009">
-    <img src="https://img.shields.io/badge/CLEARANCE-TOP__SECRET-c8a96e?style=for-the-badge&labelColor=050505" alt="Clearance" />
-  </a>
-  <a href="https://github.com/Specter-009">
-    <img src="https://img.shields.io/badge/STATUS-ACTIVE-1a3a1a?style=for-the-badge&labelColor=050505&color=2a5a2a" alt="Status" />
-  </a>
-  <a href="https://github.com/Specter-009">
-    <img src="https://img.shields.io/badge/ENCRYPTION-AES--256-c8a96e?style=for-the-badge&labelColor=050505&color=111111" alt="Encryption" />
-  </a>
-</div>
-
-<br><br>
-
-<details open>
-  <summary><img src="assets/sum_dossier.svg" width="800" alt="[+] DOSSIER DECRYPTED" /></summary>
-  <br>
   <table>
     <tr>
-      <td width="60%">
-        <b>IDENTIFICATION:</b> ADRIAN VILLAROSA<br>
-        <b>CODENAME:</b> SPECTER-009<br>
-        <b>STATION:</b> ARRAKIS SECTOR // COORDINATES CLASSIFIED<br>
-        <b>CURRENT PROJECTS:</b>
-        <br>
-        => 🌡️ https://atmos-weather-monitoring.vercel.app/ 
-        <br><br>
-        => 🚦 https://esp32-iron-traffic-light-control.vercel.app/ 
-        <br><br>
-        => 💡 https://esp32-led-control-iron-man-theme.vercel.app/ 
-        <br>
+      <td width="33%" align="center">
+        <strong>ATMOS</strong><br>
+        <a href="https://atmos-weather-monitoring.vercel.app/">Live Demo</a><br>
+        <em>Weather Monitoring</em>
+      </td>
+      <td width="33%" align="center">
+        <strong>Iron Traffic</strong><br>
+        <a href="https://esp32-iron-traffic-light-control.vercel.app/">Live Demo</a><br>
+        <em>IoT Signal Control</em>
+      </td>
+      <td width="33%" align="center">
+        <strong>Iron Man LED</strong><br>
+        <a href="https://esp32-led-control-iron-man-theme.vercel.app/">Live Demo</a><br>
+        <em>Hardware Interface</em>
       </td>
     </tr>
   </table>
-</details>
+</div>
 
 <br>
 
-<details>
-  <summary><img src="assets/sum_arsenal.svg" width="800" alt="[+] ARSENAL" /></summary>
-  <br>
-  <div align="center">
-    <img src="assets/radar.svg" width="400" alt="Skills Radar" />
-    <br><br>
-    <img src="https://skillicons.dev/icons?i=cpp,java,ts,php,html,css,arduino,react,mysql,vercel,git,vscode&theme=dark&perline=6" alt="Tech Stack" />
-  </div>
-</details>
+### 🧪 Future Operations
+> [!TIP]
+> **[COMING SOON]**
+> I am currently developing a new flagship project that integrates **Fullstack Web** and **IoT** to solve real-world campus challenges. Stay tuned for the reveal.
 
 <br>
 
-<details>
-  <summary><img src="assets/sum_missions.svg" width="800" alt="[+] MISSION LOGS" /></summary>
-  <br>
-  <div align="center">
-    <a href="https://github.com/Specter-009/arduino-line-follower-obstacle-robot">
-      <img src="assets/proj_ops-001.svg" width="395" alt="OPS-001" />
-    </a>
-    <a href="https://github.com/Specter-009/MapNotes">
-      <img src="assets/proj_ops-002.svg" width="395" alt="OPS-002" />
-    </a>
-    <br>
-    <a href="https://github.com/Specter-009/manoloAccess">
-      <img src="assets/proj_ops-003.svg" width="395" alt="OPS-003" />
-    </a>
-    <a href="https://github.com/Specter-009/ReactProject">
-      <img src="assets/proj_ops-004.svg" width="395" alt="OPS-004" />
-    </a>
-    <br>
-    <a href="https://github.com/foodwaste-management/foodwaste">
-      <img src="assets/proj_ops-005.svg" width="395" alt="OPS-005" />
-    </a>
-    <a href="https://esp-32-dht-11-temp-humidity-logger.vercel.app/">
-      <img src="assets/proj_ops-006.svg" width="395" alt="OPS-006" />
-    </a>
-  </div>
-</details>
-
-<br>
-
-<details>
-  <summary><img src="assets/sum_surveillance.svg" width="800" alt="[+] SURVEILLANCE TIMELINE" /></summary>
-  <br>
-  <div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Specter-009&bg_color=050505&color=c8a96e&line=c8a96e&point=ffffff&area=true&area_color=c8a96e&hide_border=true&custom_title=FIELD+ACTIVITY+TIMELINE+%2F%2F+SPECTER-009" width="100%" />
-    <br><br>
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Specter-009/Specter-009/output/github-contribution-grid-snake-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Specter-009/Specter-009/output/github-contribution-grid-snake.svg" />
-      <img alt="contribution snake" src="https://raw.githubusercontent.com/Specter-009/Specter-009/output/github-contribution-grid-snake-dark.svg" width="100%" />
-    </picture>
-  </div>
-</details>
-
-<br>
-
-<details>
-  <summary><img src="assets/sum_contact.svg" width="800" alt="[+] CONTACT PROTOCOL" /></summary>
-  <br>
-  <div align="center">
-    <a href="https://github.com/Specter-009">
-      <img src="https://img.shields.io/badge/GITHUB-Specter--009-c8a96e?style=for-the-badge&logo=github&logoColor=white&labelColor=050505" alt="GitHub" />
-    </a>
-    <a href="https://esp-32-dht-11-temp-humidity-logger.vercel.app/">
-      <img src="https://img.shields.io/badge/LIVE%20DEPLOYMENT-ESP32%20LOGGER-1a1a1a?style=for-the-badge&labelColor=050505&color=222222" alt="Live Deployment" />
-    </a>
-  </div>
-</details>
-
-<br><br>
+---
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:c8a96e,100:050505&height=2&section=footer" width="100%" />
-  <br><br>
-  <code>THIS FILE WILL SELF-DESTRUCT IN 5... 4... 3... 2... 1...  // CONNECTION TERMINATED.</code>
+  <br>
+  <code>CONNECTION SECURE // SPECTER-009 // BSIT NBSC</code>
 </div>
