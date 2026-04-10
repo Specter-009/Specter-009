@@ -7,9 +7,10 @@
 <div align="center">
 
 ```typescript
-const adrian: Developer = {
+const specter_009: Developer = {
   name: "Adrian Villarosa",
   station: "Northern Bukidnon State College",
+  field: "Information Technology",
   role: "Website Manager at Ballpoint",
   expertise: ["Fullstack Development", "IoT", "Application Design"]
 };
