@@ -33,7 +33,7 @@ const specter_009: Developer = {
 
 <div align="center">
 
-## 📂 Briefing
+## 𝘽𝙧𝙞𝙚𝙛𝙞𝙣𝙜
 
 I am a dedicated **Information Technology student** at Northern Bukidnon State College with a strong passion for continuous learning and growth in the field. I focus on understanding how hardware and software work together, from building **IoT systems** using Arduino to developing **web and desktop applications**. I enjoy creating practical and efficient solutions while constantly improving my skills and knowledge.
 
@@ -43,7 +43,7 @@ I am a dedicated **Information Technology student** at Northern Bukidnon State C
 
 ---
 
-## ⚡ Field Activity & Stats
+## 𝙁𝙞𝙚𝙡𝙙 𝘼𝙘𝙩𝙞𝙫𝙞𝙩𝙮 & 𝙎𝙩𝙖𝙩𝙨
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Specter-009&bg_color=050505&color=c8a96e&line=c8a96e&point=ffffff&area=true&area_color=c8a96e&hide_border=true&custom_title=CODE+COMMIT+ACTIVITY" width="100%" />
@@ -57,29 +57,29 @@ I am a dedicated **Information Technology student** at Northern Bukidnon State C
 
 ---
 
-## 🛠️ Technical Arsenal
+## 𝙏𝙚𝙘𝙝𝙣𝙞𝙘𝙖𝙡 𝘼𝙧𝙨𝙚𝙣𝙖𝙡
 
-### 🌐 Web Development
+### 𝙒𝙚𝙗 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙢𝙚𝙣𝙩
 <p align="left">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,bootstrap,php,nodejs,express&theme=dark" />
 </p>
 
-### 🖥️ Software & Hardware
+### 𝙎𝙤𝙛𝙩𝙬𝙖𝙧𝙚 & 𝙃𝙖𝙧𝙙𝙬𝙖𝙧𝙚
 <p align="left">
   <img src="https://skillicons.dev/icons?i=electron,java,cpp,arduino&theme=dark" />
 </p>
 
-### 🎮 Game Development
+### 𝙂𝙖𝙢𝙚 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙢𝙚𝙣𝙩
 <p align="left">
   <img src="https://skillicons.dev/icons?i=unity,cs&theme=dark" />
 </p>
 
-### 🗄️ Database & Cloud
+### 𝘿𝙖𝙩𝙖𝙗𝙖𝙨𝙚 & 𝘾𝙡𝙤𝙪𝙙
 <p align="left">
   <img src="https://skillicons.dev/icons?i=mysql,supabase,vercel&theme=dark" />
 </p>
 
-### 🔧 Tools & Environment
+### 𝙏𝙤𝙤𝙡𝙨 & 𝙀𝙣𝙫𝙞𝙧𝙤𝙣𝙢𝙚𝙣𝙩
 <p align="left">
   <img src="https://skillicons.dev/icons?i=git,netbeans&theme=dark" />
   <img src="https://img.shields.io/badge/XAMPP-FB8C00?style=for-the-badge&logo=xampp&logoColor=white" height="48" />
@@ -89,23 +89,23 @@ I am a dedicated **Information Technology student** at Northern Bukidnon State C
 
 ---
 
-## 🚀 Active Missions (Projects)
+## 𝘼𝙘𝙩𝙞𝙫𝙚 𝙋𝙧𝙤𝙟𝙚𝙘𝙩𝙨
 
 <div align="center">
   <table>
     <tr>
       <td width="33%" align="center">
-        <strong>ATMOS</strong><br>
+        <strong>𝘼𝙏𝙈𝙊𝙎</strong><br>
         <a href="https://atmos-weather-monitoring.vercel.app/">Live Demo</a><br>
         <em>Weather Monitoring</em>
       </td>
       <td width="33%" align="center">
-        <strong>Iron Traffic</strong><br>
+        <strong>𝙄𝙧𝙤𝙣 𝙏𝙧𝙖𝙛𝙛𝙞𝙘</strong><br>
         <a href="https://esp32-iron-traffic-light-control.vercel.app/">Live Demo</a><br>
         <em>IoT Signal Control</em>
       </td>
       <td width="33%" align="center">
-        <strong>Iron Man LED</strong><br>
+        <strong>𝙄𝙧𝙤𝙣 𝙈𝙖𝙣 𝙇𝙀𝘿</strong><br>
         <a href="https://esp32-led-control-iron-man-theme.vercel.app/">Live Demo</a><br>
         <em>Hardware Interface</em>
       </td>
@@ -115,7 +115,7 @@ I am a dedicated **Information Technology student** at Northern Bukidnon State C
 
 <br>
 
-### 🧪 Future Operations
+### 𝙁𝙪𝙩𝙪𝙧𝙚 𝙊𝙥𝙚𝙧𝙖𝙩𝙞𝙤𝙣𝙨
 > [!TIP]
 > **[LEARNING & BUILDING]**
 > Experimenting with fullstack development and IoT to improve system design and implementation skills.
