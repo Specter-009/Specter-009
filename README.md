@@ -1,19 +1,28 @@
 <div align="center">
   <img src="assets/header.svg" width="800" alt="SPECTER-009 Header" />
-  <h1>Adrian Villarosa</h1>
-  <p align="center">
-    <strong>BSIT Student @ Northern Bukidnon State College</strong><br>
-    <strong>Website Manager @ Ballpoint (Campus Publication)</strong><br>
-    <em>Fullstack Development | IoT | Application Design</em>
-  </p>
+</div>
+
+<br>
+
+<div align="center">
+
+```typescript
+const adrian: Developer = {
+  name: "Adrian Villarosa",
+  station: "Northern Bukidnon State College",
+  role: "Website Manager at Ballpoint",
+  expertise: ["Fullstack Development", "IoT", "Application Design"]
+};
+```
+
 </div>
 
 <div align="center">
   <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Connect-Email-c8a96e?style=for-the-badge&logo=gmail&logoColor=white&labelColor=050505" alt="Email" />
+    <img src="https://img.shields.io/badge/Connect-GMAIL-c8a96e?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a1a" alt="Email" />
   </a>
   <a href="https://github.com/Specter-009">
-    <img src="https://img.shields.io/badge/Connect-GitHub-c8a96e?style=for-the-badge&logo=github&logoColor=white&labelColor=050505" alt="GitHub" />
+    <img src="https://img.shields.io/badge/Connect-GITHUB-c8a96e?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a1a" alt="GitHub" />
   </a>
 </div>
 
@@ -22,9 +31,7 @@
 ---
 
 ## 📂 Briefing
-I am a dedicated **Information Technology student** at **Northern Bukidnon State College**, specializing in bridging the gap between hardware and high-level software. Currently serving as the **Website Manager** for **Ballpoint**, I oversee the digital presence of our campus student publication, ensuring seamless delivery of information to the student body.
-
-My passion lies in creating cohesive systems—from **IoT monitoring solutions** using Arduino to **dynamic web applications** and **cross-platform desktop software**.
+I am a dedicated **Information Technology student** at Northern Bukidnon State College with a strong passion for continuous learning and growth in the field. I focus on understanding how hardware and software work together, from building **IoT systems** using Arduino to developing **web and desktop applications**. I enjoy creating practical and efficient solutions while constantly improving my skills and knowledge.
 
 <br>
 
@@ -33,8 +40,7 @@ My passion lies in creating cohesive systems—from **IoT monitoring solutions**
 ## ⚡ Field Activity & Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Specter-009&show_icons=true&title_color=c8a96e&text_color=ffffff&bg_color=050505&border_color=c8a96e&hide_border=false&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Specter-009&layout=compact&title_color=c8a96e&text_color=ffffff&bg_color=050505&border_color=c8a96e&hide_border=false" width="48%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Specter-009&bg_color=050505&color=c8a96e&line=c8a96e&point=ffffff&area=true&area_color=c8a96e&hide_border=true&custom_title=CODE+COMMIT+ACTIVITY" width="100%" />
 </p>
 
 <p align="center">
@@ -105,8 +111,8 @@ My passion lies in creating cohesive systems—from **IoT monitoring solutions**
 
 ### 🧪 Future Operations
 > [!TIP]
-> **[COMING SOON]**
-> I am currently developing a new flagship project that integrates **Fullstack Web** and **IoT** to solve real-world campus challenges. Stay tuned for the reveal.
+> **[LEARNING & BUILDING]**
+> Experimenting with fullstack development and IoT to improve system design and implementation skills.
 
 <br>
 
