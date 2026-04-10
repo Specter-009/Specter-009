@@ -31,8 +31,13 @@ const specter_009: Developer = {
 
 ---
 
+<div align="center">
+
 ## 📂 Briefing
+
 I am a dedicated **Information Technology student** at Northern Bukidnon State College with a strong passion for continuous learning and growth in the field. I focus on understanding how hardware and software work together, from building **IoT systems** using Arduino to developing **web and desktop applications**. I enjoy creating practical and efficient solutions while constantly improving my skills and knowledge.
+
+</div>
 
 <br>
 
